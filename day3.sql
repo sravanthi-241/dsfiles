@@ -14,6 +14,7 @@ insert into acadamics values('harshi',33,20,'kdk');
 insert into acadamics values('siri',01,20,'vizag');
 insert into acadamics values('sanju',04,20,'hyd');
 select *from acadamics;
+select name from acadamics;
 create table Accounts(examfee int,hostelfee int,transportfee int);
 insert into Accounts values(20000,20000,11000);
 insert into Accounts values(20000,22000,10000);
